@@ -1,7 +1,7 @@
 {
-	"name": "koenbetsens/JobServer",
+	"name": "koenbetsens/jobserver",
 	"description": "Gearman Jobserver Integration",
-	"keywords": ["gearman", "api", "laravel"],
+	"keywords": ["gearman", "api", "laravel", "3-layer"],
 	"license": "MIT",
     "authors": [
 		{

@@ -7,7 +7,7 @@ Gearman is a MQ (Message Queue) provider with foreground and background capabili
 
 ### Laravel
 Laravel is on of the leanest and meanest PHP Frameworks around - perfectly suited for rest API projects.
-[gearman.org](http://gearman.org/)
+[laravel.com](http://laravel.com/)
 
 
 ## The package

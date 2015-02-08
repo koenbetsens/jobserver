@@ -18,7 +18,7 @@ class JobServerServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('koenbetsens/JobServer');
+		$this->package('koenbetsens/jobserver');
 	}
 
 	/**
