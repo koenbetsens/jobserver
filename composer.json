@@ -1,0 +1,26 @@
+{
+	"name": "koenbetsens/JobServer",
+	"description": "Gearman Jobserver Integration",
+	"keywords": ["gearman", "api", "laravel"],
+	"license": "MIT",
+    "authors": [
+		{
+			"name": "Koen Betsens",
+			"email": "koen@betsens.be",
+			"homepage": "http://betsens.be"
+		}
+    ],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/support": "4.2.*"
+	},
+	"autoload": {
+		"classmap": [
+			"src/migrations"
+		],
+		"psr-0": {
+			"koenbetsens\\JobServer\\": "src/"
+		}
+	},
+	"minimum-stability": "stable"
+}
