@@ -1,4 +1,4 @@
-<?php namespace koenbetsens\JobServer;
+<?php namespace koenbetsens\jobserver;
 
 use Illuminate\Support\Facades\Config;
 
