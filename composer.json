@@ -19,7 +19,7 @@
 			"src/migrations"
 		],
 		"psr-0": {
-			"koenbetsens\\JobServer\\": "src/"
+			"koenbetsens\\jobserver\\": "src/"
 		}
 	},
 	"minimum-stability": "stable"

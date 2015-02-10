@@ -11,7 +11,7 @@ class Sync {
 
 	public function doExec ($job, $jobload)
 	{
-		exec ("php -f " . Config::get ('api.engine.workerpath') . "sync.php " . $job . " '" . $jobload . "'", $output);
+		exec ("php -f " . Config::get ('api.worker.path') . "execute.php " . $job . " '" . $jobload . "'", $output);
 		
 		return implode ("\n", $output);
 	}
