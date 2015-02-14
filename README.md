@@ -41,6 +41,18 @@ Add the Jobserver package to the composer requirements of your API project. In `
 			"koenbetsens/jobserver": "dev-master"
 		}
 	}
+	
+You'll also have to add JobServer as a provider in your API ./app/config/app.php file
+<?php
+	
+	'providers' => array
+	(
+		'Illuminate\Foundation\Providers\ArtisanServiceProvider',
+		...
+		'Illuminate\Workbench\WorkbenchServiceProvider',
+		'koenbetsens\jobserver\JobServerServiceProvider'
+	)
+
 
 The package has 2 modes: "Gearman mode" (default) and "Synchronized mode" to enable functional communication without an actual MQ install.
 
