@@ -15,11 +15,11 @@ class JobServerServiceProvider extends ServiceProvider {
 	 * Bootstrap the application events.
 	 *
 	 * @return void
-	 */
+	 
 	public function boot()
 	{
 		$this->package('koenbetsens/jobserver');
-	}
+	}*/
 
 	/**
 	 * Register the service provider.
