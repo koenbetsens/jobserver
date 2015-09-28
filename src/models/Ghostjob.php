@@ -31,7 +31,7 @@ class Ghostjob
 	public static function evaluate ($func, $args = null)
 	{
 		if (
-			Config::get ('app.debug') &&
+			/*config ('app.debug') &&*/
 			isset ($args, $args[2]) &&
 			$args[1] == 'sync'
 		)
