@@ -1,4 +1,4 @@
-<?php
+<?php namespace koenbetsens\jobserver;
 
 class Ghostjob
 {

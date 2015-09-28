@@ -1,6 +1,9 @@
 <?php namespace koenbetsens\jobserver;
 
 use Illuminate\Support\ServiceProvider;
+use koenbetsens\jobserver\JobServer;
+use koenbetsens\jobserver\JobLocalServer;
+
 
 class JobServerServiceProvider extends ServiceProvider {
 
