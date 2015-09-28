@@ -16,7 +16,7 @@
 	},
 	"autoload": {
 		"classmap": [
-			"src/migrations"
+			"src/models"
 		],
 		"psr-0": {
 			"koenbetsens\\jobserver\\": "src/"
